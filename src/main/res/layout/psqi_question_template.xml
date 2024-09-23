@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/radiogroup"
+        android:minHeight="64dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            style="@style/CustomRadioButton"
+            android:buttonTint="@color/questionBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@null" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            style="@style/CustomRadioButton"
+            android:buttonTint="@color/questionBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@null" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            style="@style/CustomRadioButton"
+            android:buttonTint="@color/questionBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@null" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            style="@style/CustomRadioButton"
+            android:buttonTint="@color/questionBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@null" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

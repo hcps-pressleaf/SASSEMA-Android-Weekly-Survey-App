@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <declare-styleable name="ps_question_template">
+    <attr name="question" format="string"/>
+</declare-styleable> </resources>

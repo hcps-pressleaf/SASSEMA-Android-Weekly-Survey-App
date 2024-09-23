@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_qids_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ADHDActivity"
+    android:background = "@drawable/gradient_background_questions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDS"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ1"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/QIDSQ1_radio_group">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ1_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ1_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ1_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ1_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ1_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ2"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/QIDSQ2_radio_group">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ2_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ2_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ2_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ2_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ2_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ3"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ3_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ3_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ3_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ3_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ3_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ3_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ4"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ4_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ4_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ4_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ4_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ4_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ4_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ4_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ5"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ5_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ5_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ5_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ5_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ5_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ5_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ6_7"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ6_7_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ6_7_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ6_7_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ6_7_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ6_7_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ6"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textview_QIDSQ6"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ6_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ6_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ6_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ6_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ6_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ6_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ6_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ6_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ6_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ7"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/textview_QIDSQ7"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ7_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ7_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ7_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ7_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ7_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ7_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ7_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ7_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ7_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ8_9"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ8_9_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ8_9_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ8_9_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ8_9_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ8_9_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ8"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textview_QIDSQ8"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ8_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ8_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ8_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ8_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ8_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ8_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ8_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ8_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ8_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ9"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/textview_QIDSQ9"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ9_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ9_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ9_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ9_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ9_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ9_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ9_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ9_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ9_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ10"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ10_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ10_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ10_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ10_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ10_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ10_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ10_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ10_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ10_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ11"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ11_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ11_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ11_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ11_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ11_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ11_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ11_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ11_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ11_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ13"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ13_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ13_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ13_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ13_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ13_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ13_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ13_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ13_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ13_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ14"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ14_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ14_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ14_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ14_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ14_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ14_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ14_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ14_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ14_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ15"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ15_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ15_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ15_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ15_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ15_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ15_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ15_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ15_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ15_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QIDSQ16"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QIDSQ16_radio_group"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ16_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ16_Answer1"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ16_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ16_Answer2"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ16_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ16_Answer3"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonQIDSQ16_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/questionBlue"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/QIDSQ16_Answer4"
+                    android:textColor="@color/questionBlue"
+                    android:textSize="16sp"
+                    style="@style/CustomRadioButton"/>
+            </RadioGroup>
+
+        <Button
+                android:id="@+id/button_eighth"
+                android:layout_width="137dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/buttonGreen"
+                android:text="@string/next"
+                android:textSize="24sp"
+                app:cornerRadius="10dp"
+                app:iconPadding="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="88dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

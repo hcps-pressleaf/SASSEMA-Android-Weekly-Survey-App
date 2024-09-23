@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_adhd_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/gradient_background_questions"
+    tools:context=".ADHDActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHD"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ100"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ100"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ101"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ101"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ102"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ102"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ103"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ103"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ104"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ104"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ105"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ105"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ106"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ106"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ107"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ107"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ108"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ108"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ111"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ111"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ112"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ112"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ113"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ113"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ114"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ114"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ115"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ115"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ117"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ117"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ118"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ118"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ119"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ119"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ120"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ120"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ121"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ121"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ122"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ122"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ123"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ123"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ124"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ124"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ125"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ125"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ126"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ126"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ127"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ127"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ128"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ128"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ129"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/adhd_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ129"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ130"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/yesorno_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ130"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_ADHDQ131"
+                android:text="@string/ADHDQ131"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:labelFor="@id/edit_ADHDQ131">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_ADHDQ131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:textColor="@color/questionBlue"
+                android:inputType="number"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ132"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/textView_ADHDQ132">
+
+            </TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:id="@+id/constraint_ADHDQ132">
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/school"
+                    android:textColor="@color/questionBlue"
+                    android:buttonTint="@color/questionBlue"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/home"
+                    android:textColor="@color/questionBlue"
+                    android:buttonTint="@color/questionBlue"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/checkBox1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="0dp"
+                    android:text="@string/work"
+                    android:textColor="@color/questionBlue"
+                    android:buttonTint="@color/questionBlue"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/checkBox2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="@string/social_relationships"
+                    android:textColor="@color/questionBlue"
+                    android:buttonTint="@color/questionBlue"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/checkBox3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ259"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/yesorno_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ259"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ADHDQ260"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/textView_ADHDQ260">
+
+            </TextView>
+
+            <include
+                layout="@layout/notsure_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_ADHDQ260"/>
+
+            <Button
+                android:id="@+id/button_sixth"
+                android:layout_width="137dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/buttonGreen"
+                android:text="@string/next"
+                android:textSize="24sp"
+                app:cornerRadius="10dp"
+                app:iconPadding="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="88dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

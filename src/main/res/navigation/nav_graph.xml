@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.surveyapp1.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_PSFragment"
+            app:destination="@id/PSFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PSFragment"
+        android:name="com.example.surveyapp1.PSFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_ps">
+
+        <argument
+            android:name="user_id"
+            app:argType="string" />
+        <action
+            android:id="@+id/PSFragment_to_GADFragment"
+            app:destination="@id/GADFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/GADFragment"
+        android:name="com.example.surveyapp1.GADFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_gad" >
+        <action
+            android:id="@+id/action_GADFragment_to_ADHDFragment"
+            app:destination="@id/ADHDFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ADHDFragment"
+        android:name="com.example.surveyapp1.ADHDFragment"
+        android:label="fragment_sixth"
+        tools:layout="@layout/fragment_adhd" >
+        <action
+            android:id="@+id/action_ADHDFragment_to_PSQIFragment"
+            app:destination="@id/PSQIFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PSQIFragment"
+        android:name="com.example.surveyapp1.PSQIFragment"
+        android:label="fragment_seventh"
+        tools:layout="@layout/fragment_psqi" >
+        <action
+            android:id="@+id/action_PSQIFragment_to_QIDSFragment"
+            app:destination="@id/QIDSFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/QIDSFragment"
+        android:name="com.example.surveyapp1.QIDSFragment"
+        android:label="QIDSFragment" >
+        <action
+            android:id="@+id/action_QIDSFragment_to_lastActivity"
+            app:destination="@id/lastActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.surveyapp1.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_LoginFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_unavailableActivity"
+            app:destination="@id/unavailableActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/lastActivity"
+        android:name="com.example.surveyapp1.LastActivity"
+        android:label="LastActivity" />
+    <activity
+        android:id="@+id/unavailableActivity"
+        android:name="com.example.surveyapp1.UnavailableActivity"
+        android:label="UnavailableActivity" />
+</navigation>

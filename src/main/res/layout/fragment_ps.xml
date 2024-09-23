@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_fragment_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PSFragment"
+    android:background = "@drawable/gradient_background_questions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PS"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ12"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ12"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ13"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ13"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ14"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ14"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ15"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ15"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ16"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ16"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ17"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ17"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ19"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ19"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ20"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ21"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ21"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PSQ22"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <include
+                layout="@layout/ps_question_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/constraint_PSQ22"/>
+
+            <Button
+                android:id="@+id/button_second"
+                android:layout_width="137dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/buttonGreen"
+                android:text="@string/next"
+                android:textSize="24sp"
+                app:cornerRadius="10dp"
+                app:iconPadding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="88dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

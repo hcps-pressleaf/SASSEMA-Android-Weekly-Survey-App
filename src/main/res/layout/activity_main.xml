@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_fragment_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/gradient_background_home"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="378dp"
+        android:layout_height="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="200dp"
+        tools:layout_conversion_absoluteWidth="411dp">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="137dp"
+            android:layout_height="59dp"
+            android:backgroundTint="@color/buttonGreen"
+            android:text="@string/next"
+            android:textSize="24sp"
+            app:cornerRadius="10dp"
+            app:iconPadding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="88dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="299dp"
+            android:layout_height="130dp"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/sassema_removebg_preview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/enterID"
+            android:textAlignment="center"
+            android:textColor="@color/blueBlack"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            android:labelFor="@+id/editLogin"/>
+
+        <EditText
+            android:id="@+id/editLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="username"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
